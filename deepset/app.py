@@ -1,3 +1,4 @@
+from email.policy import default
 import logging
 from functools import partial
 
@@ -82,6 +83,7 @@ class HaystackDemo(ServeGradio):
     inputs = "text"
     outputs = "text"
     examples = [["Who is the father of Arya Stark?"]]
+    default = "Who is the father of Arya Stark?"
 
     def __init__(self, *args, **kwargs):
         cloud_build_config = ModelBuildConfig(image="elasticsearch")
@@ -98,7 +100,7 @@ class HaystackDemo(ServeGradio):
 
     def predict(self, question: str):
         prediction = self.model.run(
-            query=question, params={"Retriever": {"top_k": 10}, "Reader": {"top_k": 5}}
+            query=question, params={"Retriever": {"top_k": 3}, "Reader": {"top_k": 3}}
         )
         return str(prediction)
 
