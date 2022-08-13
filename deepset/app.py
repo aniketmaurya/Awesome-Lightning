@@ -1,5 +1,4 @@
 import logging
-from email.policy import default
 from functools import partial
 
 import gradio as gr
@@ -12,12 +11,11 @@ logging.basicConfig(
 logging.getLogger("haystack").setLevel(logging.INFO)
 
 
-from haystack.nodes import FARMReader, TransformersReader
+from haystack.nodes import FARMReader
 from haystack.utils import (
     clean_wiki_text,
     convert_files_to_docs,
     fetch_archive_from_http,
-    print_answers,
 )
 
 
@@ -83,11 +81,11 @@ class HaystackDemo(ServeGradio):
     inputs = "text"
     outputs = "json"
     examples = [["Who is the father of Arya Stark?"]]
-    default = "Who is the father of Arya Stark?"
 
     def __init__(self, *args, **kwargs):
-        cloud_build_config = ModelBuildConfig(image="elasticsearch")
-        local_build_config = L.BuildConfig(image="elasticsearch")
+        image ="ghcr.io/aniketmaurya/elasticsearch:latest"
+        cloud_build_config = ModelBuildConfig(image=image)
+        local_build_config = L.BuildConfig(image=image)
         super().__init__(
             *args,
             **kwargs,

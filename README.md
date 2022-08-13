@@ -1,4 +1,4 @@
 # Awesome-Lightning ⚡️
 
-Integrations and Examples for [Lightning AI](https://lightning.ai)
+Collection of Integrations and Examples for [Lightning Apps](https://lightning.ai/lightning-docs/)
 
