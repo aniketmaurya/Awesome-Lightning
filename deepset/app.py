@@ -1,5 +1,7 @@
 import logging
+from functools import partial
 
+import gradio as gr
 import lightning as L
 from lightning.app.components.serve import ServeGradio
 
@@ -54,7 +56,7 @@ def build_pipeline():
     # can be accessed later for filtering or shown in the responses of the Pipeline)
 
     # Let's have a look at the first 3 entries:
-    print(docs[:3])
+    # print(docs[:3])
 
     # Now, let's write the dicts containing documents to our DB.
     document_store.write_documents(docs)
@@ -73,9 +75,7 @@ def build_pipeline():
 
 class ModelBuildConfig(L.BuildConfig):
     def build_commands(self):
-        return [
-            "apt-get install libsndfile1"
-        ]
+        return ["apt-get install libsndfile1"]
 
 
 class HaystackDemo(ServeGradio):
@@ -102,6 +102,23 @@ class HaystackDemo(ServeGradio):
         )
         return str(prediction)
 
+    def run(self, *args, **kwargs):
+        if self._model is None:
+            self._model = self.build_model()
+        fn = partial(self.predict, *args, **kwargs)
+        fn.__name__ = self.predict.__name__
+        gr.Interface(
+            fn=fn,
+            inputs=self.inputs,
+            outputs=self.outputs,
+            examples=self.examples,
+            title="Game of Thrones QnA System",
+        ).launch(
+            server_name=self.host,
+            server_port=self.port,
+            enable_queue=self.enable_queue,
+        )
+
 
 class RootFlow(L.LightningFlow):
     def __init__(self):
@@ -112,7 +129,7 @@ class RootFlow(L.LightningFlow):
         self.demo.run()
 
     def configure_layout(self):
-        return {"name": "QnA System with Haystack", "content": self.demo.url}
+        return {"name": "Game of Thrones QnA System", "content": self.demo.url}
 
 
 if __name__ == "__main__":
