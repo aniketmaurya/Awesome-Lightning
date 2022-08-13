@@ -1,3 +1,4 @@
+from email.policy import default
 import logging
 from functools import partial
 
@@ -78,7 +79,7 @@ class ModelBuildConfig(L.BuildConfig):
 
 
 class HaystackDemo(ServeGradio):
-    inputs = "text"
+    inputs = gr.inputs.Textbox(default="Who is the father of Arya Stark?", label="Enter your query")
     outputs = "json"
     examples = [["Who is the father of Arya Stark?"]]
 
