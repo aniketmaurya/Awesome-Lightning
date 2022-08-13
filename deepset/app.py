@@ -1,5 +1,5 @@
-from email.policy import default
 import logging
+from email.policy import default
 from functools import partial
 
 import gradio as gr
@@ -81,7 +81,7 @@ class ModelBuildConfig(L.BuildConfig):
 
 class HaystackDemo(ServeGradio):
     inputs = "text"
-    outputs = "text"
+    outputs = "json"
     examples = [["Who is the father of Arya Stark?"]]
     default = "Who is the father of Arya Stark?"
 
