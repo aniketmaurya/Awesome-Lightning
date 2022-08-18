@@ -1,4 +1,6 @@
-from email.policy import default
+"""
+Credits: This code is adapted from official Haystack tutorial - https://haystack.deepset.ai/tutorials/first-qa-system
+"""
 import logging
 from functools import partial
 
@@ -79,12 +81,14 @@ class ModelBuildConfig(L.BuildConfig):
 
 
 class HaystackDemo(ServeGradio):
-    inputs = gr.inputs.Textbox(default="Who is the father of Arya Stark?", label="Enter your query")
+    inputs = gr.inputs.Textbox(
+        default="Who is the father of Arya Stark?", label="Enter your query"
+    )
     outputs = "json"
     examples = [["Who is the father of Arya Stark?"]]
 
     def __init__(self, *args, **kwargs):
-        image ="ghcr.io/aniketmaurya/elasticsearch:latest"
+        image = "ghcr.io/aniketmaurya/elasticsearch:latest"
         cloud_build_config = ModelBuildConfig(image=image)
         local_build_config = L.BuildConfig(image=image)
         super().__init__(
