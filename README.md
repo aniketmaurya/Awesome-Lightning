@@ -5,7 +5,7 @@ Collection of Integrations and Examples for [Lightning Apps](https://lightning.a
 
 ## Latest
 
-* [Deepset Haystack QnA system](./deepset/README.md)
+* [Deepset Haystack QnA system](./src/deepset/README.md)
 
 
 ## Idea TODO list
