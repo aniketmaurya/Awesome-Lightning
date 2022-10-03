@@ -8,7 +8,7 @@ Collection of Integrations and Examples for [Lightning Apps](https://lightning.a
 * [Deepset Haystack QnA system](./deepset/README.md)
 
 
-## Ideas TODO list
+## Idea TODO list
 
 ### App Ideas
 * An OCR API ([EasyOCR](https://github.com/JaidedAI/EasyOCR))
