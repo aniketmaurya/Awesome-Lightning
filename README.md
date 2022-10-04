@@ -16,24 +16,24 @@ ______________________________________________________________________
 
 </div>
 
-# Awesome-Lightning ⚡️
+# Awesome-Lightning 💜
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
-## Latest
+## Latest ⚡️
 
 * [Deepset Haystack QnA system](./src/deepset/README.md)
 
 
-## Idea TODO list
+## Idea TODO list 💡
 
-### App Ideas
+### App Ideas 🚀
 * An OCR API ([EasyOCR](https://github.com/JaidedAI/EasyOCR))
 
 
-### Integration Ideas
+### Integration Ideas 🛠
 * [MLFlow](https://mlflow.org/)
 * [Kafka](https://github.com/aniketmaurya/lit-pubsub)
 * TorchGeometric GraphGym 
