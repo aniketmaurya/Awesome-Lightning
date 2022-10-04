@@ -41,12 +41,12 @@ ______________________________________________________________________
 ### Integration Ideas 🛠
 * [MLFlow](https://mlflow.org/)
 * [Kafka](https://github.com/aniketmaurya/lit-pubsub)
-* TorchGeometric GraphGym 
+* [PyTorch Geometric GraphGym](https://pytorch-geometric.readthedocs.io/en/latest/notes/graphgym.html)
 * [Jina AI DocArray](https://github.com/jina-ai/jina)
 * [TorchServe](https://pytorch.org/serve/index.html)
 
 ## Community ✨
 
-Contributions of any kind are welcome! It should follow the [code of conduct](./.github/CODE_OF_CONDUCT.md). Learn how to make your [first contribution here](https://devblog.pytorchlightning.ai/quick-contribution-guide-86d977171b3a).
+See the [Contributors Gallery 💜](./CONTRIBUTORS.md)
 
-See the [Contributors Gallery](./CONTRIBUTORS.md)
+Contributions of any kind are welcome! It should follow the [code of conduct](./.github/CODE_OF_CONDUCT.md). Learn how to make your [first contribution here](https://devblog.pytorchlightning.ai/quick-contribution-guide-86d977171b3a).
