@@ -1,5 +1,3 @@
-# Awesome Lightning
-
 <div align="center">
 
 <img src="https://pl-flash-data.s3.amazonaws.com/assets_lightning/docs/images/logos/lightning-ai.png" width="400px">
@@ -26,6 +24,7 @@ ______________________________________________________________________
 
 </div>
 
+# Awesome Lightning
 
 ## Latest ⚡️
 
