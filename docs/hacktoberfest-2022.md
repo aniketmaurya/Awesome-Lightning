@@ -1,2 +1,0 @@
-# HacktoberFest 2022
-
