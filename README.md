@@ -18,14 +18,13 @@ ______________________________________________________________________
 
 [![App Gallery](https://bit.ly/3xTcccO)](https://lightning.ai/apps)
 [![Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://www.pytorchlightning.ai/community)
-
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 </div>
 
 # Awesome-Lightning 💜
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
 ## Latest ⚡️
