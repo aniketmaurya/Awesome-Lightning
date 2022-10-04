@@ -15,6 +15,17 @@
         "doc",
         "maintenance"
       ]
+    },
+    {
+      "login": "naisofly",
+      "name": "Naiyarah Hussain",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5947670?v=4",
+      "profile": "https://www.linkedin.com/in/naiyarah",
+      "contributions": [
+        "maintenance",
+        "projectManagement",
+        "mentoring"
+      ]
     }
   ],
   "contributorsPerLine": 7,
