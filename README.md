@@ -7,8 +7,8 @@
 ______________________________________________________________________
 
 <p align="center">
-  <a href="#app-ideas">App Ideas</a> •
-  <a href="#latest">Latest Apps</a> •
+  <a href="#idea-todo-list-">App Ideas</a> •
+  <a href="##latest-%EF%B8%8F">Latest Apps</a> •
   <a href="https://lightning.ai/">Website</a>
 </p>
 
@@ -18,7 +18,7 @@ ______________________________________________________________________
 
 # Awesome-Lightning 💜
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](./CONTRIBUTORS.md)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 
