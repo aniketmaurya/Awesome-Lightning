@@ -16,7 +16,9 @@ ______________________________________________________________________
   
 </p>
 
+[![App Gallery](https://bit.ly/3xTcccO)](https://lightning.ai/apps)
 [![Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://www.pytorchlightning.ai/community)
+
 
 </div>
 
