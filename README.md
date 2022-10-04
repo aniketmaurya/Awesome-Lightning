@@ -40,27 +40,8 @@ ______________________________________________________________________
 * [Jina AI DocArray](https://github.com/jina-ai/jina)
 * [TorchServe](https://pytorch.org/serve/index.html)
 
-## Contributors ✨
+## Community ✨
 
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+Contributions of any kind are welcome! It should follow the [code of conduct](./.github/CODE_OF_CONDUCT.md). Learn how to make your [first contribution here](https://devblog.pytorchlightning.ai/quick-contribution-guide-86d977171b3a).
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tbody>
-    <tr>
-      <td align="center"><a href="http://aniketmaurya.com"><img src="https://avatars.githubusercontent.com/u/21018714?v=4?s=100" width="100px;" alt="Aniket Maurya"/><br /><sub><b>Aniket Maurya</b></sub></a><br /><a href="https://github.com/Lightning-AI-Dev/Awesome-Lightning/commits?author=aniketmaurya" title="Documentation">📖</a></td>
-    </tr>
-  </tbody>
-  <tfoot>
-    
-  </tfoot>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+See the [Contributors Gallery](./CONTRIBUTORS.md)
