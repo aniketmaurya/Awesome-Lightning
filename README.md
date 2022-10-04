@@ -28,7 +28,11 @@ ______________________________________________________________________
 
 ## Latest ⚡️
 
-* [Deepset Haystack QnA system](./src/deepset/README.md)
+| Project | Author | Demo |
+| ------- | ------ | ----- |
+|[Speech Search Engine with OpenAI Whisper](https://github.com/Nachimak28/LAI-voice-search-openai-whisper-demo) | @Nachimak28 | [App Link](https://01gdsrn3rf7qgev31g8gvea1gh.litng-ai-03.litng.ai/view/home) |
+| [Data Drift Detector](https://lightning.ai/component/UX5swWI252-Data%20Drift%20Detector) | @Nachimak28 |
+| [Deepset Haystack QnA system](./src/deepset/README.md) | @aniketmaurya |
 
 
 ## Idea TODO list 💡
@@ -39,8 +43,8 @@ ______________________________________________________________________
 
 ### Integration Ideas 🛠
 * [MLFlow](https://mlflow.org/)
-* [Kafka](https://github.com/aniketmaurya/lit-pubsub)
 * [PyTorch Geometric GraphGym](https://pytorch-geometric.readthedocs.io/en/latest/notes/graphgym.html)
+* [Kafka](https://github.com/aniketmaurya/lit-pubsub)
 * [Jina AI DocArray](https://github.com/jina-ai/jina)
 * [TorchServe](https://pytorch.org/serve/index.html)
 
