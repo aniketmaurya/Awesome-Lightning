@@ -9,7 +9,11 @@ ______________________________________________________________________
 <p align="center">
   <a href="#idea-todo-list-">App Ideas</a> •
   <a href="##latest-%EF%B8%8F">Latest Apps</a> •
-  <a href="https://lightning.ai/">Website</a>
+  <a href="https://lightning.ai/apps">App Gallery</a> •
+  <a href="https://lightning.ai/pages/ambassador-program/">Lightning League</a> •
+  <a href="https://lightning.ai/pages/blog/">Blog</a> •
+  <a href="https://lightning.ai/">Website</a> 
+  
 </p>
 
 [![Slack](https://img.shields.io/badge/slack-chat-green.svg?logo=slack)](https://www.pytorchlightning.ai/community)

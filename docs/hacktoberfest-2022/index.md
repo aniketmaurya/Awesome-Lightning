@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./logo/Hfest-Logo-2-Color-Manga@2x.png" width="400px">
+<img src="/docs/hacktoberfest-2022/logo/Hfest-Logo-2-Color-Manga@2x.png" width="400px">
 
-**Build Lightning Apps and Components from the [Idea list](../../README.md#app-ideas)**
+**Build Lightning Apps and Components from the [Idea list](../../README.md#app-ideas-🚀)**
 
 ______________________________________________________________________
 
