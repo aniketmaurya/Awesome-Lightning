@@ -20,6 +20,8 @@ ______________________________________________________________________
 
 🧙 Participate this Hacktoberfest by building Lightning Apps and Components.
 
+We have put up an idea list in [this issue](https://github.com/Lightning-AI-Dev/Awesome-Lightning/issues/5). Just comment on the issue on which idea would you like to pick and work on.
+
 Learn more about Lightning App [here](https://youtu.be/RbU0CROL8TM).
 
 ## Guidelines

@@ -26,7 +26,7 @@ ______________________________________________________________________
 
 # Awesome Lightning
 
-**Contribute to the **Awesome Lightning** project this [HacktoberFest](https://hacktoberfest.com/). [Learn more](./docs/hacktoberfest-2022/index.md).**
+**Participate in [HacktoberFest](https://hacktoberfest.com/) by building some awesome Lightning Apps and Components. [Learn more](./docs/hacktoberfest-2022/index.md).**
 
 ## Latest ⚡️
 
