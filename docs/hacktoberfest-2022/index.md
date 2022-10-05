@@ -24,7 +24,7 @@ We have put up an idea list in [this issue](https://github.com/Lightning-AI-Dev/
 
 Learn more about Lightning App [here](https://youtu.be/RbU0CROL8TM).
 
-## Guidelines
+## Guidelines 🚦
 
 **Please follow the Hacktoberfest [Values](https://hacktoberfest.com/participation/#values)**
 
@@ -35,12 +35,12 @@ Learn more about Lightning App [here](https://youtu.be/RbU0CROL8TM).
 
 [Register](https://hacktoberfest.com/participation/#contributors) with the official Hacktoberfest website.
 
-### Spam
+### Spam ❌
 **AVOID SUBMITTING LOW-QUALITY PULL/MERGE REQUESTS.**
 
 Learn what is a spam pull request [here](https://hacktoberfest.com/participation/#spam).
 
-## Resources
+## Resources 📚
 
 * [Version Control Your Code Using Git](https://youtu.be/HF6KAFDk9dY?list=PLaMu-SDt_RB51u2kyttt3tDvXCp-KMw4A)
 * [Creating a Pull Request on Github](https://youtu.be/_0X_dljzr5E?list=PLaMu-SDt_RB51u2kyttt3tDvXCp-KMw4A)
