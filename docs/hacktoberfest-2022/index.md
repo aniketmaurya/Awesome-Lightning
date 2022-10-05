@@ -18,6 +18,10 @@ ______________________________________________________________________
 
 # HacktoberFest 2022
 
+🧙 Participate this Hacktoberfest by building Lightning Apps and Components.
+
+Learn more about Lightning App [here](https://youtu.be/RbU0CROL8TM).
+
 ## Guidelines
 
 **Please follow the Hacktoberfest [Values](https://hacktoberfest.com/participation/#values)**
@@ -39,6 +43,7 @@ Learn what is a spam pull request [here](https://hacktoberfest.com/participation
 * [Version Control Your Code Using Git](https://youtu.be/HF6KAFDk9dY?list=PLaMu-SDt_RB51u2kyttt3tDvXCp-KMw4A)
 * [Creating a Pull Request on Github](https://youtu.be/_0X_dljzr5E?list=PLaMu-SDt_RB51u2kyttt3tDvXCp-KMw4A)
 * [The 8 Essential Terminal Commands you Need to Know](https://youtu.be/KhQKqaxU7BQ?list=PLaMu-SDt_RB51u2kyttt3tDvXCp-KMw4A)
+* [LIGHTNING APPS IN 15 MINUTES](https://lightning.ai/lightning-docs/get_started/lightning_apps_intro.html)
 
 
 
