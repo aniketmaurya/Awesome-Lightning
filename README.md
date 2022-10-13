@@ -2,7 +2,7 @@
 
 <img src="https://pl-flash-data.s3.amazonaws.com/assets_lightning/docs/images/logos/lightning-ai.png" width="400px">
 
-**Collection of Integrations and Examples for [Lightning Apps](https://lightning.ai/lightning-docs/)**
+**Collection of Apps, Integrations and Examples for [Lightning Apps](https://lightning.ai/lightning-docs/)**
 
 ______________________________________________________________________
 
@@ -25,6 +25,8 @@ ______________________________________________________________________
 </div>
 
 # Awesome Lightning
+
+Awesome Lightning is a collection of Apps and components built by the Lightning Community.
 
 **Participate in HacktoberFest by building some awesome Lightning Apps and Components. [Learn more](./docs/hacktoberfest-2022/index.md).**
 
