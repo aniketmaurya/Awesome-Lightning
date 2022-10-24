@@ -12,6 +12,21 @@ These are mostly guidelines, not rules. Use your best judgment, and feel free to
 
 We welcome any kind of contribution to our software, from simple comment or question to a full fledged pull request. Please read and follow our [Code of Conduct](./CODE_OF_CONDUCT.md).
 
+**Project Structure**
+The app/component code has to be present inside [src](https://github.com/Lightning-AI-Dev/Awesome-Lightning/tree/main/src) with an `app.py` module for which demonstrates the app and `requirements.txt` for dependency.
+
+> Note that each project folder must have a suffix either app or component.
+
+```
+src/
+    project-name-app/
+        app.py
+        requirements.txt
+    project-name-component/
+        app.py
+        requirements.txt
+```
+
 A contribution can be one of the following cases:
 
 1. you have a question;
@@ -24,11 +39,11 @@ A contribution can be one of the following cases:
 If you are new to open source, check out [this blog to get started with your first Open Source contribution](https://devblog.pytorchlightning.ai/quick-contribution-guide-86d977171b3a).
 
 ## You have a question
+
 1. Use the search functionality here to see if someone already filed the same issue or check out Docs.
 1. If your issue search did not yield any relevant results, make a new issue.
 1. Apply the "Question" label; apply other labels when relevant.
 1. You can join our [Slack group](https://join.slack.com/t/pytorch-lightning/shared_invite/zt-1dm4phlc0-84Jv9_8Mp_tWraICOJ467Q) as well.
-
 
 ## Guidelines
 

@@ -1,6 +1,5 @@
 # EasyOCR-lightning
 
-
 ## How to run
 
 ```bash

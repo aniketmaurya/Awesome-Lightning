@@ -2,15 +2,14 @@
 Credits: This code is adapted from official Easy OCR : https://huggingface.co/spaces/tomofi/EasyOCR and https://github.com/JaidedAI/EasyOCR
 """
 
+import easyocr
 import gradio as gr
+import lightning as L
+import pandas as pd
 import requests
 import torch
-from PIL import Image, ImageDraw
-import pandas as pd
-import lightning as L
 from lightning.app.components.serve import ServeGradio
-import easyocr
-
+from PIL import Image, ImageDraw
 
 choices = [
     "abq",
@@ -146,10 +145,12 @@ class LitGradio(ServeGradio):
 
     def build_model(self):
         torch.hub.download_url_to_file(
-            "https://github.com/JaidedAI/EasyOCR/raw/master/examples/english.png", "english.png"
+            "https://github.com/JaidedAI/EasyOCR/raw/master/examples/english.png",
+            "english.png",
         )
         torch.hub.download_url_to_file(
-            "https://github.com/JaidedAI/EasyOCR/raw/master/examples/chinese.jpg", "chinese.jpg"
+            "https://github.com/JaidedAI/EasyOCR/raw/master/examples/chinese.jpg",
+            "chinese.jpg",
         )
         torch.hub.download_url_to_file("https://i.imgur.com/mwQFd7G.jpeg", "Hindi.jpeg")
         return self.inference
