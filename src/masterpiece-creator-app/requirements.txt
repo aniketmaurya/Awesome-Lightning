@@ -1,4 +1,0 @@
-discoart==0.12.0
-jina==3.9.1
-lightning
-gradio<=3.6

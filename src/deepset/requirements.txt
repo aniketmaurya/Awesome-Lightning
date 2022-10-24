@@ -1,3 +1,0 @@
-farm-haystack
-gradio==2.9.4
-lightning
